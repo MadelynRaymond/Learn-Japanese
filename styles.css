@@ -1,0 +1,149 @@
+@font-face {
+    font-family: Nurom;
+    src: url(./assets/fonts/Nurom-Bold.ttf)
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+/**----------DEFAULT HTML--------**/
+
+
+body{
+    font-family: 'Nurom';
+    color: rgb(54, 43, 88);   
+    background-color: rgb(255, 253, 248);
+
+}
+
+.nav-bar{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+   
+}
+
+.logo{
+    font-size: 2rem;
+}
+.nav-login button{
+    font-family: 'Nurom';
+    font-size: 1.2rem;
+    padding: 1rem 1rem;
+    padding-top: 1.2rem;
+    background: #bcff85;
+    border-radius: 12px;
+    margin: 0 0.5rem;
+    border: none;
+}
+
+/**----------LEVEL CARD STYLING--------**/
+
+.level-list-container{
+}
+
+
+.level-card-container{
+
+    padding: 0 2rem;
+    
+    
+
+}
+.level-card{
+    color: rgb(54, 43, 88);
+    border-radius: 32px;
+    background: linear-gradient(110deg, rgb(218, 166, 248) 50%, #bcff85 50%);
+    border-bottom: 8px solid rgb(139, 44, 247);
+    margin: 2rem auto;
+    max-width: 40rem;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.level-card-left{
+    
+}
+.level-card-right{
+ 
+}
+
+.level-card-name{
+    font-size: 3rem;
+}
+
+.level-card-desc{
+
+}
+
+.level-card-btn{
+    
+    font-family: 'Nurom';
+    background-color: white;
+    border: none;
+    background: none;
+    text-decoration: underline;
+    font-size: 2rem;
+    margin-left: 0.5rem;
+    padding: 0.6rem 0.6rem;
+    padding-top: 0.8rem;
+   
+    
+
+}
+.level-card-btn-text{
+    color: rgb(54, 43, 88);    
+    text-decoration: none;
+    
+    
+
+}
+/**----------LEVEL.js styling--------**/
+.kana-practice{
+
+    margin: 5rem auto 0;
+    padding: 14rem 0rem;
+    max-width: 50rem;
+    background: #bcff85;
+    border-bottom: 8px solid rgb(139, 44, 247);
+    box-shadow: 2px 4px 13px rgb(54, 43, 88);
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.displayed-kana{
+  font-size: 4rem;
+}
+.kana-input{
+    font-family: 'Nurom';
+    color:rgb(54, 43, 88);
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    margin: 0 auto;
+    text-align: center;
+    width: 50%
+}
+
+/**----------LEARN PAGES STYLING--------**/
+
+.learn-new-kana{
+    
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    font-size: 4rem;
+    background-color: rgb(54, 43, 88);
+    color: white;
+}
