@@ -1,4 +1,4 @@
-import Level from './Level.js'
+import Level from './Level.jsx'
 import { Link } from "react-router-dom";
 import '../styles.css'
 

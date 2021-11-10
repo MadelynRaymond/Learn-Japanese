@@ -1,11 +1,11 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import App from './App.jsx';
 import reportWebVitals from './reportWebVitals';
-import Levels from './routes/Levels'
-import Level from './routes/Level'
-import Learn from './routes/Learn'
+import Levels from './routes/Levels.jsx'
+import Level from './routes/Level.jsx'
+import Learn from './routes/Learn.jsx'
 
 ReactDOM.render(
   <React.StrictMode>

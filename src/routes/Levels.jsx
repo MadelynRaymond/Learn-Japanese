@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import LevelLink from './LevelLink.js'
-import Level from './Level.js'
+import LevelLink from './LevelLink.jsx'
+import Level from './Level.jsx'
 import '../styles.css'
 
 
