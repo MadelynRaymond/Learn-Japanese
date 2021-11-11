@@ -1,7 +1,30 @@
+/**:root{
+    --background: rgb(255, 253, 248);
+    --font-color: rgb(54, 43, 88);   
+    --main-color1: #bcff85;
+    --main-color2: rgb(218, 166, 248);
+    --accent: rgb(139, 44, 247);
+}**/
+:root{
+    --background: rgb(255, 253, 248);
+    --font-color: rgb(54, 43, 88);   
+    --main-color1: #ffa3dc;
+    --main-color2: rgb(255, 245, 109);
+    --accent: rgb(54, 43, 88); 
+}
+/**:root{
+    --background: rgb(255, 253, 248);
+    --font-color: rgb(54, 43, 88);   
+    --main-color1: rgb(255, 245, 109);
+    --main-color2: #f88e7b;
+    --accent: rgb(54, 43, 88); 
+}**/
 @font-face {
     font-family: Nurom;
     src: url(./assets/fonts/Nurom-Bold.ttf)
 }
+
+
 
 *{
     box-sizing: border-box;
@@ -14,35 +37,42 @@
 
 body{
     font-family: 'Nurom';
-    color: rgb(54, 43, 88);   
-    background-color: rgb(255, 253, 248);
+    color: var(--font-color);
+    background-color: var(--background)
 
 }
 
 .nav-bar{
+    background-color: var(--background);
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2rem;
+    padding: 1rem;
+    font-size: 1rem;
+    
+    border-bottom: 10px solid var(--font-color);
    
 }
 
-.logo{
-    font-size: 2rem;
-}
+
 .nav-login button{
-    font-family: 'Nurom';
     font-size: 1.2rem;
+    color: var(--font-color); 
+    font-family: 'Nurom';
     padding: 1rem 1rem;
     padding-top: 1.2rem;
-    background: #bcff85;
+    background: var(--main-color1);
     border-radius: 12px;
     margin: 0 0.5rem;
     border: none;
 }
 
 /**----------LEVEL CARD STYLING--------**/
+
 
 
 .level-card-container{
@@ -52,8 +82,8 @@ body{
 .level-card{
     color: rgb(54, 43, 88);
     border-radius: 32px;
-    background: linear-gradient(110deg, rgb(218, 166, 248) 50%, #bcff85 50%);
-    border-bottom: 8px solid rgb(139, 44, 247);
+    background: linear-gradient(110deg, var(--main-color2) 50%, var(--main-color1) 50%);
+    border-bottom: 8px solid var(--accent);
     margin: 2rem auto;
     max-width: 40rem;
     padding: 2rem;
@@ -71,7 +101,7 @@ body{
 .level-card-btn{
     
     font-family: 'Nurom';
-    background-color: white;
+
     border: none;
     background: none;
     text-decoration: underline;
@@ -93,12 +123,12 @@ body{
 /**----------LEVEL.js styling--------**/
 .kana-practice{
 
-    margin: 5rem auto 0;
+    margin: 10rem auto 0;
     padding: 14rem 0rem;
     max-width: 50rem;
-    background: #bcff85;
-    border-bottom: 8px solid rgb(139, 44, 247);
-    box-shadow: 2px 4px 13px rgb(54, 43, 88);
+    background: var(--main-color1);
+    border-bottom: 8px solid var(--font-color);
+    box-shadow: 2px 4px 13px var(--font-color);
     border-radius: 25px;
     display: flex;
     flex-direction: column;
@@ -110,7 +140,7 @@ body{
 }
 .kana-input{
     font-family: 'Nurom';
-    color:rgb(54, 43, 88);
+    color:var(--font-color);
     font-size: 1.5rem;
     padding: 0.5rem;
     margin: 0 auto;
@@ -127,10 +157,55 @@ body{
     margin-left: 2rem;
     margin-right: 2rem;
     font-size: 4rem;
-    background-color: rgb(54, 43, 88);
+    background-color: var(--font-color);
     color: white;
 }
 
 .kana-input-incorrect{
     background-color: rgb(223, 120, 120);
+}
+
+/** LANDING PAGE??? **/
+
+.landing-page{
+    margin: 0 auto;
+    min-height: 58rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 2rem;
+    color:rgb(54, 43, 88);
+    font-size: 2.5rem;
+    text-align: center;
+    background: var(--main-color1);
+    background: linear-gradient(5deg, var(--background) 15%, var(--main-color1) 15%);
+   
+  
+}
+
+.get-started-btn{
+    
+    font-family: Nurom;
+    font-size: 1.5rem;
+    text-decoration: none;
+    padding: 1rem;
+    padding-top: 1.2rem;
+    margin-top: 2rem;
+    background-color: var(--main-color2);
+    border: none;
+    border-radius: 20px;
+    border-bottom: 4px solid var(--font-color);
+
+
+}
+
+.get-started-btn a{
+    color: var(--font-color);
+    text-decoration: none;
+    
+}
+
+.get-started-btn a:visited{
+    color: var(--font-color);
 }

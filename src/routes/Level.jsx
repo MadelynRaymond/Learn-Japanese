@@ -3,6 +3,7 @@ import {kana} from '../assets/kana'
 import {allHiragana} from '../assets/kanaArr'
 import {useState} from 'react'
 import '../styles.css'
+import Navbar from './Navbar'
 
 import 'animate.css'
 
@@ -69,18 +70,9 @@ function Level({number}){
 
     return(
 
-        <div className="level-list-container">
+        <div>
            
-           <div className="nav-bar">
-               <div className="logo">
-                    <h1>Learn Japanese</h1>
-                    
-               </div>
-               <div class="nav-login">
-                    <button>Login</button>
-                    <button>Sign up</button>
-               </div>
-            </div>
+           <Navbar />
             
             <div className="kana-practice">
                 <h2>Level {number}</h2>
