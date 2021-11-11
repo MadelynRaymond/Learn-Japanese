@@ -18,7 +18,7 @@ export default function Levels(){
             <button className="get-started-btn"><a href="#level-selection">Get Started</a></button>
          </div>
         
-            <div id="level-selection"> </div>
+            <div id="level-selection"></div>
             <LevelLink levelName={'Level One'} description={'Learn your first five hiragana (5/71)'} practiceRoute={"/levels/1"} learnRoute={"/learn/level1"}/>
             <LevelLink levelName={'Level Two'} description={'Continue learning gojūon (25/71)'} practiceRoute={"/levels/2"} learnRoute={"/learn/level2"}/>
             <LevelLink levelName={'Level Three'} description={'More gojūon & exceptions (46/71)'} practiceRoute={"/levels/3"} learnRoute={"/learn/level3"}/>
