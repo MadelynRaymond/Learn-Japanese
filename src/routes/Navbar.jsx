@@ -10,7 +10,7 @@ export default function Navbar(){
                     </div>
                <div className="nav-login">
                     <button>Login</button>
-                    <button>Join</button>
+                    <button>Join us</button>
                </div>
 
                </div>

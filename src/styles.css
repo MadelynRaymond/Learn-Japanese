@@ -51,6 +51,7 @@ button:hover{
 }
 
 button a:hover{
+    
     color: rgb(147, 120, 228);  
 }
 
@@ -84,6 +85,9 @@ button a:hover{
     border: none;
     border-bottom: 3px solid var(--font-color);
 
+}
+.nav-login button:hover{
+    color: rgb(147, 120, 228); 
 }
 
 /**----------LEVEL CARD STYLING--------**/
@@ -244,6 +248,38 @@ button a:hover{
 
 }
 
+.test-class{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.test-child1{
+
+    transition: 0.2s ease-in-out;
+    color: rgb(54, 43, 88);
+    border-radius: 32px;
+    background: var(--main-color1);
+    border-bottom: 8px solid var(--accent);
+    margin: 2rem auto;
+    max-width: 40rem;
+    padding: 2rem;
+ 
+
+}
+
+.test-child2{
+    
+    text-align: center;
+    transition: 0.2s ease-in-out;
+    color: rgb(54, 43, 88);
+    border-radius: 32px;
+    background: var(--main-color2);
+    border-bottom: 8px solid var(--accent);
+    margin: 2rem auto;
+    max-width: 40rem;
+    padding: 2rem;
+}
 
 
 
