@@ -1,23 +1,32 @@
 
-let set1 = ['あ', 'い', 'う','え', 'お']
-let set2 = ['か', 'き', 'く','け', 'こ']
-let set3 = ['が', 'ぎ', 'ぐ','げ', 'ご']
-let set4 = ['は', 'ひ', 'ふ','へ', 'ほ']
-let set5 = ['ば', 'び', 'ぶ','べ', 'ぼ']
-let set6 = ['さ', 'し', 'す','せ', 'そ']
-let set7 = ['ざ', 'じ', 'ず', 'ぜ', 'ぞ']
-let set8 = ['た', 'ち', 'つ', 'て', 'と']
-let set9 = ['だ','で','ど']
-let set10 = ['な','に','ぬ','ね','の']
-let set11 = ['ま','み','む','め','も']
-let set12 = ['や','り','る','れ','ろ']
-let set13 = ['わ','を']
-let set14 = ['ん']
-let set15 = ['ぱ', 'ぴ', 'ぷ', 'ぺ', 'ぽ']
+let aColumn = ['あ', 'い', 'う','え', 'お']
 
 
 
-let allHiragana = [...set1, ...set2, ...set3, ...set4, ...set5, 
-    ...set6, ...set7, ...set8, ...set9, ...set10, ...set11, ...set12, ...set13, ...set14, ...set15]
+let kaColumn = ['か', 'き', 'く','け', 'こ']
+let saColumn = ['さ', 'し', 'す','せ', 'そ']
+let taColumn = ['た', 'ち', 'つ', 'て', 'と']
+let naColumn = ['な','に','ぬ','ね','の']
 
-export {allHiragana}
+let haColumn = ['は', 'ひ', 'ふ','へ', 'ほ']
+let maColumn = ['ま','み','む','め','も']
+let yaColumn = ['や','ゆ', 'よ']
+let raColumn = ['ら','り','る','れ','ろ']
+let waColumn = ['わ','を']
+let nColumn = ['ん']
+
+
+
+
+let gaColumn = ['が', 'ぎ', 'ぐ','げ', 'ご']
+let zaColumn = ['ざ', 'じ', 'ず', 'ぜ', 'ぞ']
+let daColumn = ['だ','で','ど'] //needs work
+let baColumn = ['ば', 'び', 'ぶ','べ', 'ぼ']
+let paColumn = ['ぱ', 'ぴ', 'ぷ', 'ぺ', 'ぽ']
+
+
+
+let allHiragana = [...aColumn, ...kaColumn, ...saColumn, ...taColumn, ...naColumn, 
+    ...haColumn, ...maColumn, ...yaColumn, ...raColumn, ...waColumn, ...nColumn, ...gaColumn, ...zaColumn, ...daColumn, ...baColumn, ...paColumn]
+
+export {aColumn, kaColumn, saColumn, taColumn, naColumn, haColumn, maColumn, yaColumn, raColumn, waColumn, nColumn, gaColumn, zaColumn, daColumn, baColumn, paColumn, allHiragana}

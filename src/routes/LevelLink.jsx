@@ -6,7 +6,7 @@ function LevelLink(props){
 
     return(
         
-        <div className="level-card-container">
+
             <div className="level-card">
                 <div className="level-card-left">
                     <h1 className="level-card-name">{props.levelName}</h1>
@@ -23,7 +23,6 @@ function LevelLink(props){
             
             
             </div>
-        </div>
     )
 }
 

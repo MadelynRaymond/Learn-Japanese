@@ -1,6 +1,6 @@
 import '../assets/kana'
 import {kana} from '../assets/kana'
-import {allHiragana} from '../assets/kanaArr'
+import * as x from '../assets/kanaArr'
 import {useState} from 'react'
 import '../styles.css'
 import Navbar from './Navbar'
@@ -8,8 +8,7 @@ import Navbar from './Navbar'
 import 'animate.css'
 
 function Level({number}){
-
-
+    const allHiragana = x.allHiragana
 
     const [hiragana, setHiragana] = useState(allHiragana[Math.floor(Math.random() * 5)])
     const [streak, setStreak] = useState(0)

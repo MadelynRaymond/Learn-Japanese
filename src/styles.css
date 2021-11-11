@@ -27,6 +27,7 @@
 
 
 *{
+   
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -35,13 +36,24 @@
 }
 /**----------DEFAULT HTML--------**/
 
-
 body{
     font-family: 'Nurom';
     color: var(--font-color);
     background-color: var(--background)
 
 }
+
+button:hover{
+    transition: 0.1s ease-in-out;
+    transform: scale(1.1);
+    color: rgb(147, 120, 228);    
+
+}
+
+button a:hover{
+    color: rgb(147, 120, 228);  
+}
+
 
 .nav-bar{
     background-color: var(--background);
@@ -61,29 +73,44 @@ body{
 
 
 .nav-login button{
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     color: var(--font-color); 
     font-family: 'Nurom';
-    padding: 1rem 1rem;
-    padding-top: 1.2rem;
-    background: var(--main-color1);
-    border-radius: 12px;
+    padding: 0.5rem 1.5rem;
+    padding-top: 0.8rem;
+    background: var(--main-color2);
+    border-radius: 15px;
     margin: 0 0.5rem;
     border: none;
+    border-bottom: 3px solid var(--font-color);
+
 }
 
 /**----------LEVEL CARD STYLING--------**/
 
 
-
-.level-card-container{
-    padding: 0 2rem;
+.all-level-cards:hover > * {
+    transition: 0.2s ease-in-out;
     
-}
+    opacity: 0.5;
+  }
+  
+  
+  .all-level-cards:hover > *:hover {
+   
+    background: linear-gradient(105deg, var(--main-color1) 50%, var(--main-color2) 50%);
+    transition: 0.5s all ease-in-out;
+    transform: scale(1.1);
+
+    opacity: 1;
+  }
+
+
 .level-card{
+    transition: 0.2s ease-in-out;
     color: rgb(54, 43, 88);
     border-radius: 32px;
-    background: linear-gradient(110deg, var(--main-color2) 50%, var(--main-color1) 50%);
+    background: linear-gradient(105deg, var(--main-color2) 50%, var(--main-color1) 50%);
     border-bottom: 8px solid var(--accent);
     margin: 2rem auto;
     max-width: 40rem;
@@ -117,10 +144,10 @@ body{
 .level-card-btn-text{
     color: rgb(54, 43, 88);    
     text-decoration: none;
-    
-    
 
 }
+
+
 /**----------LEVEL.js styling--------**/
 .kana-practice{
 
@@ -168,6 +195,11 @@ body{
 
 /** LANDING PAGE??? **/
 
+#level-selection {
+    margin: 0 auto;
+    width: fit-content;
+}
+
 .landing-page{
     margin: 0 auto;
     min-height: 58rem;
@@ -176,17 +208,27 @@ body{
     align-items: center;
     justify-content: center;
     padding: 0 2rem;
-    color:rgb(54, 43, 88);
+    color: var(--font-color);
+
     font-size: 2.5rem;
     text-align: center;
     background: var(--main-color1);
-    background: linear-gradient(5deg, var(--background) 15%, var(--main-color1) 15%);
-   
-  
+    background: linear-gradient(5deg, var(--background), var(--background) 20%, var(--main-color1) calc(20% + 1.5px), var(--main-color1) 15%);
+
+}
+ .landing-page h1{
+    font-weight: bold;
+    padding-bottom: 1rem;
+    
+ }
+
+.landing-page p{
+    font-size: 1.5rem;
+    color: var(--background);
+
 }
 
 .get-started-btn{
-    
     font-family: Nurom;
     font-size: 1.5rem;
     text-decoration: none;
@@ -197,16 +239,11 @@ body{
     border: none;
     border-radius: 20px;
     border-bottom: 4px solid var(--font-color);
-
-
-}
-
-.get-started-btn a{
     color: var(--font-color);
     text-decoration: none;
-    
+
 }
 
-.get-started-btn a:visited{
-    color: var(--font-color);
-}
+
+
+
