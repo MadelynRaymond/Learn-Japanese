@@ -24,19 +24,19 @@ function Level({number}){
                 setHiragana(newHiragana)
                 break
             case 2:
-                newHiragana = allHiragana[Math.floor(Math.random() * 10)]
+                newHiragana = allHiragana[Math.floor(Math.random() * 25)]
                 setHiragana(newHiragana)
                 break
             case 3:
-                newHiragana = allHiragana[Math.floor(Math.random() * 15)]
+                newHiragana = allHiragana[Math.floor(Math.random() * 46)]
                 setHiragana(newHiragana)
                 break
             case 4:
-                newHiragana = allHiragana[Math.floor(Math.random() * 20)]
+                newHiragana = allHiragana[Math.floor(Math.random() * 59)]
                 setHiragana(newHiragana)
                 break
             case 5:
-                newHiragana = allHiragana[Math.floor(Math.random() * 25)]
+                newHiragana = allHiragana[Math.floor(Math.random() * 69)]
                 setHiragana(newHiragana)
         }
      }

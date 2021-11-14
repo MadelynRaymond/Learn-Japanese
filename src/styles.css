@@ -264,6 +264,8 @@ button a:hover{
     margin: 2rem auto;
     max-width: 40rem;
     padding: 2rem;
+    align-self: flex-start;
+    margin-top: 7rem;
  
 
 }
@@ -281,5 +283,61 @@ button a:hover{
     padding: 2rem;
 }
 
+/**CUSTOM PRACTICE*/
+.custom-practice-container{
+    margin-top: 8rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.custom-practice-container h1{
+    text-align: center;
+}
+
+.custom-practice{
+    font-size: 1.193rem;
+    font-weight: 800;
+    background-color: var(--main-color1);
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+}
 
 
+.row-selection{
+    
+}
+
+.row-option{
+   padding: 1rem;
+   margin: 0 auto;
+}
+
+.practice-window{
+    text-align: center;
+
+}
+
+.custom-kana-practice{
+    
+    padding: 6rem 0rem;
+    background: var(--main-color2);
+    text-align: center;
+}
+
+.select-kana-btn{
+   
+    display: inline-block;
+    font-family: Nurom;
+    font-size: 1rem;
+    padding: 0.5rem;
+    background-color: var(--main-color1);
+    
+}
+
+.test2{
+
+}

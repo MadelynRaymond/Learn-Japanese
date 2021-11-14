@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import Levels from './routes/Levels.jsx'
 import Level from './routes/Level.jsx'
 import Learn from './routes/Learn.jsx'
+import CustomPractice from './routes/CustomPractice.jsx';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -29,6 +30,7 @@ ReactDOM.render(
           <Route path="/levels/4" element={<Level number={4}/>} />
           <Route path="/levels/5" element={<Level number={5}/>} />
 
+          <Route path="custom" element={<CustomPractice/>} />
 
       </Routes>
     </BrowserRouter>

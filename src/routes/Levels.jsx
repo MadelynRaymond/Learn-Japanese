@@ -3,6 +3,7 @@ import LevelLink from './LevelLink.jsx'
 import Level from './Level.jsx'
 import '../styles.css'
 import Navbar from './Navbar'
+import CustomPractice from "./CustomPractice.jsx";
 
 
 export default function Levels(){
@@ -39,11 +40,13 @@ export default function Levels(){
             </div>
             <div class="test-child2">
                <h1>select a level or go into<br>
-               </br>a customizable practice:<br></br>
-               <a href="#page-top">start</a>
+               </br>a custom practice:<br></br><br></br>
+               <a href="#page-top">Start</a>
                </h1>
             </div>
         </div>
+
+     
 
       </div>
     )

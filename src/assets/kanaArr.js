@@ -1,8 +1,6 @@
 
 let aColumn = ['あ', 'い', 'う','え', 'お']
 
-
-
 let kaColumn = ['か', 'き', 'く','け', 'こ']
 let saColumn = ['さ', 'し', 'す','せ', 'そ']
 let taColumn = ['た', 'ち', 'つ', 'て', 'と']
@@ -16,11 +14,10 @@ let waColumn = ['わ','を']
 let nColumn = ['ん']
 
 
-
-
 let gaColumn = ['が', 'ぎ', 'ぐ','げ', 'ご']
 let zaColumn = ['ざ', 'じ', 'ず', 'ぜ', 'ぞ']
 let daColumn = ['だ','で','ど'] //needs work
+
 let baColumn = ['ば', 'び', 'ぶ','べ', 'ぼ']
 let paColumn = ['ぱ', 'ぴ', 'ぷ', 'ぺ', 'ぽ']
 
