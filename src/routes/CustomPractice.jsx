@@ -13,11 +13,11 @@ export default function CustomPractice(){
                         <input type="text" className="kana-input"></input>
                         <p>Current Streak: 0</p>
                         
-                            <a href="#kana-options" class="select-kana-btn">Select kana</a>
+                            <a href="#kana-options" className="select-kana-btn">Select kana</a>
                 
                     </div>
             
-                <div class="custom-practice">
+                <div className="custom-practice">
                     <div className="row-selection">
                         <div className="row-option" id="kana-options">
                             <input type="checkbox" id="aRow" name="aRow"></input>

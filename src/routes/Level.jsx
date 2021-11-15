@@ -38,16 +38,18 @@ function Level({number}){
             case 5:
                 newHiragana = allHiragana[Math.floor(Math.random() * 69)]
                 setHiragana(newHiragana)
+
+
         }
      }
 
 
      function validateSubmittedHiragana(e){
          //checks if enter key was pressed
-        if(e.charCode == 13){            
+        if(e.charCode === 13){            
             let input = e.target.value
             //checks if input is correct
-            if(kana.get(input) == hiragana){
+            if(kana.get(input) === hiragana){
 
                 //clears the input
                 e.target.value = ''

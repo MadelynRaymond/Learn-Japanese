@@ -1,9 +1,6 @@
-import { Link } from "react-router-dom";
 import LevelLink from './LevelLink.jsx'
-import Level from './Level.jsx'
 import '../styles.css'
 import Navbar from './Navbar'
-import CustomPractice from "./CustomPractice.jsx";
 
 
 export default function Levels(){
@@ -19,8 +16,8 @@ export default function Levels(){
             <p>learn & practice the fundamentals for free</p>
             <a href="#level-selection"><button className="get-started-btn">Get Started</button></a>
          </div>
-        <div class="test-class">
-            <div class="test-child1">
+        <div className="test-class">
+            <div className="test-child1">
                <h1>our goal is to help you<br></br>
                 learn the basic hiragana<br></br>
                 needed to begin reading<br></br>
@@ -38,7 +35,7 @@ export default function Levels(){
                   <LevelLink levelName={'Level Five'} description={'More dakuon & handakuon (81/81)'} practiceRoute={"/levels/5"} learnRoute={"/learn/level5"}/>
             
             </div>
-            <div class="test-child2">
+            <div className="test-child2">
                <h1>select a level or go into<br>
                </br>a custom practice:<br></br><br></br>
                <a href="#page-top">Start</a>
