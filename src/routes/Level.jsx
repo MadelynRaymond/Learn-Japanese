@@ -6,6 +6,7 @@ import '../styles.css'
 import Navbar from './Navbar'
 
 import 'animate.css'
+import { getDefaultNormalizer } from '@testing-library/dom'
 
 function Level({number}){
     const allHiragana = x.allHiragana
@@ -38,8 +39,10 @@ function Level({number}){
             case 5:
                 newHiragana = allHiragana[Math.floor(Math.random() * 69)]
                 setHiragana(newHiragana)
-
-
+                break
+            default:
+                newHiragana = allHiragana[Math.floor(Math.random() * 5)]
+                setHiragana(newHiragana)
         }
      }
 
