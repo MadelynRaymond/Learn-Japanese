@@ -88,7 +88,6 @@ export default function CustomPractice(){
                             <label for="nhaRow">na row</label>
                             <input type="checkbox" id="naRow" name="naRow"></input>
                         </div>
-            
                     </div>
             </div>
             </div>

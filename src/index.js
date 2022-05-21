@@ -7,6 +7,7 @@ import Levels from './routes/Levels.jsx'
 import Level from './routes/Level.jsx'
 import Learn from './routes/Learn.jsx'
 import CustomPractice from './routes/CustomPractice.jsx';
+import KatakanaPractice from './routes/KatakanaPractice';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -31,6 +32,8 @@ ReactDOM.render(
           <Route path="/levels/5" element={<Level number={5}/>} />
 
           <Route path="custom" element={<CustomPractice/>} />
+
+          <Route path="katakana" element={<KatakanaPractice/>} />
 
       </Routes>
     </BrowserRouter>

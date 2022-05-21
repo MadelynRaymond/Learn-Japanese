@@ -1,5 +1,6 @@
 import '../assets/kana'
 import {kana} from '../assets/kana'
+import {katakana} from '../assets/katakana'
 import * as x from '../assets/kanaArr'
 import {useState} from 'react'
 import '../styles.css'

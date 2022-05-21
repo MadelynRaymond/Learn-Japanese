@@ -1,6 +1,7 @@
 import LevelLink from './LevelLink.jsx'
 import '../styles.css'
 import Navbar from './Navbar'
+import { Link } from 'react-router-dom'
 
 
 export default function Levels(){
@@ -18,12 +19,11 @@ export default function Levels(){
          </div>
         <div className="test-class">
             <div className="test-child1">
-               <h1>our goal is to help you<br></br>
-                learn the basic hiragana<br></br>
-                needed to begin reading<br></br>
-               and writing japanese.<br></br>
-               this is a prerequisite<br></br>
-               to most textbooks!</h1>
+               <h1>
+               Already mastered<br></br>
+               hiragana?<br></br><br></br>
+               <Link to="katakana" number={5}>Try Katakana</Link>
+               </h1>
 
 
             </div>
